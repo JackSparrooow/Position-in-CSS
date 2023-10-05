@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+
+}
+
+.container .box1 {
+    background: cyan;
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    float: left;
+    left: 100px;
+    top: 100px;
+    text-align: center;
+
+    /* z-index also help us to modify box1 or other boxses*/
+    /* z-index: 100; */
+    /* z-index: -1; */
+
+}
+
+
+.container .box2 {
+    background:cyan;
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: -70px;
+    top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container .box3 {
+    background: cyan;
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -70px;
+    right: -170px;
+    text-align: center;
+
+}
+
+.container .box4 {
+    background: cyan;
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: -30px;
+    bottom: 30px;
+    text-align: center;
+}
+
+.container .box5{
+    background:cyan;
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    right: -170px;
+    bottom: 130px;
+    text-align: center;
+}

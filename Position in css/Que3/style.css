@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.container {
+    border: 2px solid red;
+    height: 200px;
+    width: 80%;
+    background: rgb(247, 231, 125);
+
+
+}
+
+.container .main {
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+
+.img {
+    position: relative;
+    height: 170px;
+    width: 300px;
+    float: right;
+    padding-top: 1rem;
+    bottom: 40px;
+    margin-right: 1rem;
+    padding-left: 1rem;
+
+}
+
+p {
+
+    margin-top: 1rem;
+    padding: 0px 20px;
+    text-justify: auto;
+    font-size: 1.1rem;
+    word-break: break-all;
+
+}

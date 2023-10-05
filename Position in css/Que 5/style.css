@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    border: 2px solid red;
+    width: 50%;
+    height: 50vh;
+}
+
+.container .img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width:765px;
+    height: 365px;
+    z-index: -1;
+    /* z-index: 100; */
+}
